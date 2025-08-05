@@ -1,0 +1,15 @@
+{
+  "name": "teste_front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "engines": {"node": "v22.13.1"},
+ "scripts": {
+  "cypress:web": "npx cypress open",
+  "cypress:headless": "npx cypress run --browser electron"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
